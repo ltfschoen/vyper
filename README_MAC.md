@@ -11,6 +11,7 @@ Includes Troubleshooting tips and information about Vyper
   * [Chapter 1 - Setup WITH Docker](#chapter-1)
   * [Chapter 2 - Docker Containers and Images (Show/Delete)](#chapter-2)
   * [Chapter 3 - About Vyper](#chapter-3)
+  * [Chapter 4 - Unit Tests](#chapter-4)
 
 ## Chapter 0 - Setup WITHOUT Docker <a id="chapter-0"></a>
 
@@ -309,3 +310,11 @@ Includes Troubleshooting tips and information about Vyper
                 ```
         * Structs
             * TODO
+
+## Chapter 4 - Unit Tests <a id="chapter-4"></a>
+
+```bash
+python setup.py test
+pip3 install ethereum==2.3.1 pytest pytest-cov pytest-runner
+pytest
+```

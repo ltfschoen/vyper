@@ -31,3 +31,5 @@ docs/modules.rst
 
 # IDEs
 .idea/
+
+.pytest_cache/
